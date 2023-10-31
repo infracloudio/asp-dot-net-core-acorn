@@ -1,7 +1,7 @@
 name:        "ASP.NET Core Sample Acorn"
 description: "Acorn running a sample ASP.NET Core app"
 readme:      "./README.md"
-icon:        "./asp-dotnet-logo.svg"
+icon:        "./asp-dotnet-logo.png"
 
 containers: {
   web: {
