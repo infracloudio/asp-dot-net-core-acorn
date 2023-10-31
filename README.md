@@ -1,6 +1,6 @@
 # Acorn for a ASP.NET Core sample app - Blazing Pizza Store
 
-This sample ASP.NET app is a web application to order pizzas. You can select your favourite pizza of the desired size, add toppings and order it. [Blazing Pizza Store App](https://github.com/dotnet-presentations/blazor-workshop/) is part of the Blazor Workshop conducted in .NET Conf 2019
+This sample ASP.NET Core app is a web application to order pizzas. You can select your favourite pizza of the desired size, add toppings and place an order for it. [Blazing Pizza Store App](https://github.com/dotnet-presentations/blazor-workshop/) is part of the Blazor Workshop conducted in .NET Conf 2019
 
 ## What is ASP.NET?
 
