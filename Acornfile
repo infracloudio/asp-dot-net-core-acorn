@@ -1,0 +1,17 @@
+name:        "ASP.NET Core Sample Acorn"
+description: "Acorn running a sample ASP.NET Core app"
+readme:      "./README.md"
+icon:        "./asp-dotnet-logo.svg"
+
+containers: {
+  web: {
+    build: {
+      context: "./src"
+      dockerfile: "./Dockerfile"
+    }
+   env: {
+      "ASPNETCORE_ENVIRONMENT": "Development"
+   }
+    ports: publish: "80/http"
+  }
+}
