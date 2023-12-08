@@ -1,15 +1,16 @@
 # Deploying ASP.NET Core Application on Acorn
 
+Nowadays, each business needs to have an online presence. We keep exploring innovative ways to connect with customers, reaching them in the most accessible way. One such avenue is through online platforms, for example, for services like pizza ordering. The convenience of a few clicks leading to a delicious pizza at your doorstep is great to have! This is where a framework like ASP.NET Core comes into play. ASP.NET Core, a robust and versatile framework from Microsoft, is ideal for building dynamic web applications like a pizza ordering system. It offers flexibility, high performance, and ease of use, making it a favored choice for developers.
 
-<!-- TODO Introduction -->
+However, the journey from development to deployment can often be complex and intimidating. This is where Acron, a streamlined cloud platform, becomes a game-changer. Acron simplifies the entire process, allowing you to focus on what matters most - your application. It enables you to package your ASP.NET Core application, along with all its dependencies, into a single file known as an Acornfile. This encapsulation means deploying your pizza ordering application becomes as easy as a single click, freeing you from the hassle of intricate deployment setups.
 
-[Acorn Cloud Platform](https://beta.acorn.io/) lets you run your acorns in free [sandbox environment](https://docs.acorn.io/sandbox). You can also share nifty artifact with a link, making it a breeze for you to deploy with just a single click into your very own sandbox environment. You can run your Acorns as often as you like for upto 2hrs to evaluate and experiment your application. If you wish to [run your Production workloads](https://docs.acorn.io/aws/overview), upgrade to a teams and enterprise plan to deploy and manage applications in your AWS account.
+[Acorn Cloud Platform](https://beta.acorn.io/) lets you run your acorns in free [sandbox environment](https://docs.acorn.io/sandbox), which you can use for testing purpose if need. You can also share nifty artifact with a link, making it a breeze for you to deploy with a single click into your very own sandbox environment. You can run your Acorns as often as you like for upto 2hrs to evaluate and experiment your application. If you wish to [run your Production workloads](https://docs.acorn.io/aws/overview), upgrade to a teams and enterprise plan to deploy and manage applications in your AWS account.
 
 If you are looking to get started on the Acorn Platform and give the ASP.Net Core application a whirl, just hit that link below and have a peek!
 
 [![Run in Acorn](https://acorn.io/v1-ui/run/badge?image=ghcr.io+infracloudio+asp-dotnet-core-acorn:v%23.%23.%23-%23&ref=sudhanshu456)](https://acorn.io/run/ghcr.io/infracloudio/asp-dotnet-core-acorn:v%23.%23.%23-%23?ref=sudhanshu456)
 
-To learn how to write your own Acornfile to deploy ASP.NET Core Application or further customise, follow along:
+To learn how to write your own Acornfile for deploying an ASP.NET Core application or to further customize it, follow along with this tutorial. We will be examining a sample pizza ordering application built using ASP.NET Core.
 
 > _Note: Everything shown in this tutorial can be found in [this repository](https://github.com/infracloudio/asp-dotnet-core-acorn)._
 
@@ -32,9 +33,7 @@ acorn login beta.acorn.io
 
 ## Deploy your ASP.NET Core application
 
-<!-- TODO Change description here -->
-
-We will be deploying a sample photo gallery application which enables users to organise, manage and share their digital assets such as images, videos, logos and documents on a website. You can find the source code for the Acorn of this sample application [here](https://github.com/infracloudio/asp-dotnet-core-acorn).
+We will be deploying a sample web application to order pizzas. You can select your favourite pizza of the desired size, add toppings and place an order for it. [Blazing Pizza Store App](https://github.com/dotnet-presentations/blazor-workshop/) is part of the Blazor Workshop conducted in .NET Conf 2019. You can find the source code for the Acorn of this sample application [here](https://github.com/infracloudio/asp-dotnet-core-acorn).
 
 There are two ways you can try this sample application.
 
@@ -148,7 +147,7 @@ Once you follow one of the above methods of deploying the ASP.NET Core applicati
 For this sample deployment the endpoint url is `https://asp-dotnet-core-application-32566025.ccx3c8.on-acorn.io/`
 
 ![ASP.NET Core Application](./img/application.png)
-
+ideal
 ## Acorn Dashboard
 
 The Acorn Dashboard is integrated with multiple features such as Events, Logs, Details and accessing the Shell of the Application. Details include the CPU, Memory, Network, and Errors for the Application.
@@ -195,4 +194,4 @@ acorn build -t ghcr.io/infracloudio/asp-dot-net-core-acorn:v0.0.0.1 --push
 
 ## Conclusion
 
-In this tutorial, we have learned how to deploy a ASP.NET Core application on Acorn Platform by defining cloud services information into an Acornfile. Then we explored the Acorn Platform Dashboard to gain useful insights of deployed application.
+In this tutorial, we've learned how to effortlessly deploy an ASP.NET Core application on the Acorn Platform. Acorn simplifies the process, enabling quick deployment, sandbox testing, and convenient management through its user-friendly dashboard. Customization options empower developers, making Acorn an good choice for ASP.NET Core applications.
