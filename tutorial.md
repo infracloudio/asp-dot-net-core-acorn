@@ -147,7 +147,8 @@ Once you follow one of the above methods of deploying the ASP.NET Core applicati
 For this sample deployment the endpoint url is `https://asp-dotnet-core-application-32566025.ccx3c8.on-acorn.io/`
 
 ![ASP.NET Core Application](./img/application.png)
-ideal
+This is it, you can now explore the application, try it's feature like adding a pizza and a topping, it should add it to the cart.
+
 ## Acorn Dashboard
 
 The Acorn Dashboard is integrated with multiple features such as Events, Logs, Details and accessing the Shell of the Application. Details include the CPU, Memory, Network, and Errors for the Application.
