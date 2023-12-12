@@ -4,7 +4,7 @@ Nowadays, each business needs to have an online presence. We keep exploring inno
 
 However, the journey from development to deployment can often be complex and intimidating. This is where Acorn, a streamlined cloud platform, becomes a game-changer. Acorn simplifies the entire process, allowing you to focus on what matters most - your application. It enables you to package your ASP.NET Core application, along with all its dependencies, into a single file known as an Acornfile. This encapsulation means deploying your pizza ordering application becomes as easy as a single click, freeing you from the hassle of intricate deployment setups.
 
-[Acorn Cloud Platform](https://beta.acorn.io/) lets you run your acorns in free [sandbox environment](https://docs.acorn.io/sandbox), which you can use for testing purpose if need. You can also share nifty artifact with a link, making it a breeze for you to deploy with a single click into your very own sandbox environment. You can run your Acorns as often as you like for upto 2hrs to evaluate and experiment your application. If you wish to [run your Production workloads](https://docs.acorn.io/aws/overview), upgrade to a teams and enterprise plan to deploy and manage applications in your AWS account.
+[Acorn Cloud Platform](https://acorn.io/) lets you run your acorns in free [sandbox environment](https://docs.acorn.io/sandbox), which you can use for testing purpose if need. You can also share nifty artifact with a link, making it a breeze for you to deploy with a single click into your very own sandbox environment. You can run your Acorns as often as you like for upto 2hrs to evaluate and experiment your application. If you wish to [run your Production workloads](https://docs.acorn.io/aws/overview), upgrade to a teams and enterprise plan to deploy and manage applications in your AWS account.
 
 If you are looking to get started on the Acorn Platform and give the ASP.Net Core application a whirl, just hit that link below and have a peek!
 
@@ -21,14 +21,14 @@ To learn how to write your own Acornfile for deploying an ASP.NET Core applicati
 
 ## Acorn Login
 
-Login to the [Acorn Platform](http://beta.acorn.io) using the GitHub Sign-In option with your GitHub user.
+Login to the [Acorn Platform](http://acorn.io) using the GitHub Sign-In option with your GitHub user.
 
 ![acorn-login-screen](https://necessary-creativity-bc071c3082.media.strapiapp.com/login_screen_6fde8a8572.png)
 
 After the installation of Acorn CLI for your OS, you can login to the Acorn platform.
 
 ```sh
-acorn login beta.acorn.io
+acorn login
 ```
 
 ## Deploy your ASP.NET Core application
